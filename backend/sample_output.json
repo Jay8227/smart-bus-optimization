@@ -1,0 +1,11 @@
+{
+  "original":[
+    {"stop_id":"S1","window":"2025-09-13T08:00:00.000Z","demand":12,"cluster":0},
+    {"stop_id":"S2","window":"2025-09-13T08:00:00.000Z","demand":8,"cluster":1}
+  ],
+  "optimized":[
+    {"stop_id":"S1","window":"2025-09-13T08:00:00.000Z","demand":12,"vehicle":"bus_opt_0"},
+    {"stop_id":"S2","window":"2025-09-13T08:00:00.000Z","demand":8,"vehicle":"bus_opt_1"}
+  ],
+  "impact":{"coverage":"100%","utilization":"40%","avgWait":"30 mins"}
+}

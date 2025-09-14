@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html, body {
+  @apply h-full text-gray-900;
+  font-family: theme('fontFamily.sans');
+  background-color: theme('colors.white'); /* replaces bg-white */
+}
+
+.dark html, 
+.dark body {
+  @apply text-gray-100;
+  background-color: theme('colors.gray.900'); /* replaces dark:bg-gray-900 */
+}
+
+#app {
+  @apply min-h-screen;
+}
